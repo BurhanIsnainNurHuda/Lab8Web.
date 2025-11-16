@@ -36,11 +36,15 @@
  
 - **Form Tambah Data:** <img width="1912" height="947" alt="image" src="https://github.com/user-attachments/assets/a8ef23a8-663f-4c97-9798-a84eb4b25443" />
 <img width="1914" height="948" alt="image" src="https://github.com/user-attachments/assets/b5740854-6dd7-4090-b370-37cc51a7e252" />
-**Hasil Setelah Tambah Data** <img width="1916" height="948" alt="image" src="https://github.com/user-attachments/assets/a1f144ca-8d29-4f9b-a06a-1bf066876fbe" />
+- **Hasil Setelah Tambah Data** <img width="1916" height="948" alt="image" src="https://github.com/user-attachments/assets/a1f144ca-8d29-4f9b-a06a-1bf066876fbe" />
 
 
 
-- **Form Edit Data:** [Lihat Screenshot]
+- **Form Edit Data:** <img width="1916" height="948" alt="image" src="https://github.com/user-attachments/assets/9a621384-8aec-499f-92df-a06969fe98d8" />
+<img width="1914" height="953" alt="image" src="https://github.com/user-attachments/assets/9d5da0db-193c-4160-b640-b02c187c8a94" />
+- **Hasil Setelah Edit Data** <img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/dab2ac00-d981-4b9a-acfc-2a238293b492" />
+
+
 
 ## Teknologi Used
 - PHP
