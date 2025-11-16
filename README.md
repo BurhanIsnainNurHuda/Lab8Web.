@@ -1,5 +1,8 @@
 # Lab8Web.
 
+
+**Dibuat oleh:** 
+
     Nama: Burhan Isnain Nur Huda
     NIM: 312410226
     Kelas: TI.24.A.2
@@ -12,24 +15,52 @@
 2. Mahasiswa mampu memahami konsep dasar CRUD menggunakan PHP  
 3. Mahasiswa mampu membuat program CRUD sederhana menggunakan PHP
 
+## Penjelasan Program
+Program ini adalah aplikasi **CRUD (Create, Read, Update, Delete)** sederhana untuk mengelola data barang menggunakan **PHP dan MySQL**. Aplikasi ini memungkinkan pengguna untuk menambah, melihat, mengedit, dan menghapus data barang dengan fitur upload gambar.
+
+### Struktur Database
+- **Database**: `latihan1`
+- **Tabel**: `data_barang`
+- **Field**: id_barang, kategori, nama, gambar, harga_beli, harga_jual, stok
+
+### Arsitektur Aplikasi
+- **Frontend**: HTML dengan CSS styling (theme coklat muda)
+- **Backend**: PHP native dengan MySQLi
+- **Database**: MySQL
+- **Server**: XAMPP (Apache + MySQL)
+
 ## Langkah-langkah Praktikum
 
 ### 1. Persiapan Database
 - Membuat database `latihan1`
-- Membuat tabel `data_barang`
-- Insert data sample
+- Membuat tabel `data_barang` dengan struktur yang sesuai
+- Insert data sample untuk testing
 
 ### 2. Implementasi CRUD
-- **Create** (`tambah.php`) - Menambah data barang baru
-- **Read** (`index.php`) - Menampilkan data barang  
-- **Update** (`ubah.php`) - Mengedit data barang
-- **Delete** (`hapus.php`) - Menghapus data barang
+- **Create** (`tambah.php`) - Menambah data barang baru dengan form input dan upload gambar
+- **Read** (`index.php`) - Menampilkan semua data barang dalam tabel responsive  
+- **Update** (`ubah.php`) - Mengedit data barang existing dengan form pre-filled
+- **Delete** (`hapus.php`) - Menghapus data barang dengan konfirmasi
 
 ### 3. Fitur Tambahan
-- Upload dan management gambar
-- Design responsive dengan CSS
-- Form validation
-- Konfirmasi hapus data
+- **Upload dan management gambar** - Support upload image dengan validasi
+- **Design responsive** dengan CSS theme coklat muda yang aesthetic
+- **Form validation** - Validasi input form untuk data yang benar
+- **Konfirmasi hapus data** - Popup konfirmasi sebelum menghapus data
+- **Error handling** - Penanganan error koneksi database dan query
+
+## File Structure
+lab8_php_database/
+├── index.php # Halaman utama (Read)
+├── tambah.php # Form tambah data (Create)
+├── ubah.php # Form edit data (Update)
+├── hapus.php # Proses hapus data (Delete)
+├── koneksi.php # Koneksi database
+├── style.css # Styling theme coklat muda
+└── gambar/ # Folder penyimpanan gambar
+├── hp_samsung.jpg
+├── hp_xiaomi.jpg
+└── hp_oppo.jpg
 
 ## Screenshot Hasil
 - **Halaman Utama:** <img width="1913" height="953" alt="image" src="https://github.com/user-attachments/assets/4ea96e6b-b93a-441e-a8f9-25874934d93a" />
@@ -47,12 +78,26 @@
 
 
 ## Teknologi Used
-- PHP
-- MySQL
-- HTML/CSS
-- XAMPP
+- **PHP** - Bahasa pemrograman server-side
+- **MySQL** - Database management system
+- **HTML/CSS** - Struktur dan styling tampilan
+- **XAMPP** - Web server solution stack
+- **MySQLi** - PHP extension untuk koneksi MySQL
 
 ## Cara Menjalankan
-1. Start Apache dan MySQL di XAMPP
-2. Import database `latihan1`
-3. Akses `http://localhost/lab8_php_database/`
+1. Start Apache dan MySQL di XAMPP Control Panel
+2. Import database `latihan1` (file SQL tersedia di folder database)
+3. Letakkan folder `lab8_php_database` di dalam `htdocs`
+4. Akses melalui browser: `http://localhost/lab8_php_database/`
+
+## Cara Penggunaan
+1. **Lihat Data**: Buka halaman utama untuk melihat semua data barang
+2. **Tambah Data**: Klik "Tambah Barang Baru" → isi form → Simpan
+3. **Edit Data**: Klik tombol "Edit" pada data → ubah form → Update
+4. **Hapus Data**: Klik tombol "Hapus" → konfirmasi → Data terhapus
+
+## Catatan
+- Pastikan folder `gambar` memiliki permission write untuk upload file
+- Database configuration dapat diubah di file `koneksi.php`
+- Aplikasi sudah responsive dan dapat diakses dari mobile device
+
