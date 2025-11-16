@@ -32,7 +32,8 @@
 - Konfirmasi hapus data
 
 ## Screenshot Hasil
-![Halaman Utama](screenshot/index.png)
+![Halaman Utama](<img width="1912" height="947" alt="image" src="https://github.com/user-attachments/assets/ed1badc1-6395-438c-a0d2-f336bf0ffde9" />
+)
 ![Tambah Data](screenshot/tambah.png)
 ![Edit Data](screenshot/ubah.png)
 
