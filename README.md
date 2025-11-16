@@ -32,10 +32,10 @@
 - Konfirmasi hapus data
 
 ## Screenshot Hasil
-[Halaman Utama](<img width="1912" height="947" alt="image" src="https://github.com/user-attachments/assets/ed1badc1-6395-438c-a0d2-f336bf0ffde9" />
-)
-![Tambah Data](screenshot/tambah.png)
-![Edit Data](screenshot/ubah.png)
+- **Halaman Utama:** <img width="1913" height="953" alt="image" src="https://github.com/user-attachments/assets/4ea96e6b-b93a-441e-a8f9-25874934d93a" />
+ 
+- **Form Tambah Data:** [Lihat Screenshot]
+- **Form Edit Data:** [Lihat Screenshot]
 
 ## Teknologi Used
 - PHP
