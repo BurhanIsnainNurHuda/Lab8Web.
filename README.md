@@ -34,7 +34,12 @@
 ## Screenshot Hasil
 - **Halaman Utama:** <img width="1913" height="953" alt="image" src="https://github.com/user-attachments/assets/4ea96e6b-b93a-441e-a8f9-25874934d93a" />
  
-- **Form Tambah Data:** [Lihat Screenshot]
+- **Form Tambah Data:** <img width="1912" height="947" alt="image" src="https://github.com/user-attachments/assets/a8ef23a8-663f-4c97-9798-a84eb4b25443" />
+<img width="1914" height="948" alt="image" src="https://github.com/user-attachments/assets/b5740854-6dd7-4090-b370-37cc51a7e252" />
+**Hasil Setelah Tambah Data** <img width="1916" height="948" alt="image" src="https://github.com/user-attachments/assets/a1f144ca-8d29-4f9b-a06a-1bf066876fbe" />
+
+
+
 - **Form Edit Data:** [Lihat Screenshot]
 
 ## Teknologi Used
